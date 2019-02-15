@@ -58,20 +58,22 @@
             // lblInstrument1
             // 
             this.lblInstrument1.AutoSize = true;
+            this.lblInstrument1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.lblInstrument1.Location = new System.Drawing.Point(55, 28);
             this.lblInstrument1.Name = "lblInstrument1";
-            this.lblInstrument1.Size = new System.Drawing.Size(62, 13);
+            this.lblInstrument1.Size = new System.Drawing.Size(56, 13);
             this.lblInstrument1.TabIndex = 0;
-            this.lblInstrument1.Text = "Instrument1";
+            this.lblInstrument1.Text = "Instrument";
             // 
             // lblInstrument2
             // 
             this.lblInstrument2.AutoSize = true;
+            this.lblInstrument2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.lblInstrument2.Location = new System.Drawing.Point(55, 92);
             this.lblInstrument2.Name = "lblInstrument2";
-            this.lblInstrument2.Size = new System.Drawing.Size(62, 13);
+            this.lblInstrument2.Size = new System.Drawing.Size(56, 13);
             this.lblInstrument2.TabIndex = 1;
-            this.lblInstrument2.Text = "Instrument2";
+            this.lblInstrument2.Text = "Instrument";
             // 
             // volBox1
             // 
@@ -100,11 +102,12 @@
             // lblInstrument3
             // 
             this.lblInstrument3.AutoSize = true;
+            this.lblInstrument3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.lblInstrument3.Location = new System.Drawing.Point(55, 156);
             this.lblInstrument3.Name = "lblInstrument3";
-            this.lblInstrument3.Size = new System.Drawing.Size(62, 13);
+            this.lblInstrument3.Size = new System.Drawing.Size(56, 13);
             this.lblInstrument3.TabIndex = 5;
-            this.lblInstrument3.Text = "Instrument3";
+            this.lblInstrument3.Text = "Instrument";
             // 
             // volBox4
             // 
@@ -117,11 +120,12 @@
             // lblInstrument4
             // 
             this.lblInstrument4.AutoSize = true;
+            this.lblInstrument4.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.lblInstrument4.Location = new System.Drawing.Point(55, 220);
             this.lblInstrument4.Name = "lblInstrument4";
-            this.lblInstrument4.Size = new System.Drawing.Size(62, 13);
+            this.lblInstrument4.Size = new System.Drawing.Size(56, 13);
             this.lblInstrument4.TabIndex = 7;
-            this.lblInstrument4.Text = "Instrument4";
+            this.lblInstrument4.Text = "Instrument";
             // 
             // volBox5
             // 
@@ -134,11 +138,12 @@
             // lblInstrument5
             // 
             this.lblInstrument5.AutoSize = true;
+            this.lblInstrument5.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.lblInstrument5.Location = new System.Drawing.Point(55, 284);
             this.lblInstrument5.Name = "lblInstrument5";
-            this.lblInstrument5.Size = new System.Drawing.Size(62, 13);
+            this.lblInstrument5.Size = new System.Drawing.Size(56, 13);
             this.lblInstrument5.TabIndex = 9;
-            this.lblInstrument5.Text = "Instrument5";
+            this.lblInstrument5.Text = "Instrument";
             // 
             // volBox6
             // 
@@ -151,21 +156,25 @@
             // lblInstrument6
             // 
             this.lblInstrument6.AutoSize = true;
+            this.lblInstrument6.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.lblInstrument6.Location = new System.Drawing.Point(55, 348);
             this.lblInstrument6.Name = "lblInstrument6";
-            this.lblInstrument6.Size = new System.Drawing.Size(62, 13);
+            this.lblInstrument6.Size = new System.Drawing.Size(56, 13);
             this.lblInstrument6.TabIndex = 11;
-            this.lblInstrument6.Text = "Instrument6";
+            this.lblInstrument6.Text = "Instrument";
             // 
             // btnVolSave
             // 
+            this.btnVolSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(34)))), ((int)(((byte)(97)))));
+            this.btnVolSave.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
+            this.btnVolSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolSave.Location = new System.Drawing.Point(39, 415);
             this.btnVolSave.Name = "btnVolSave";
             this.btnVolSave.Size = new System.Drawing.Size(120, 23);
             this.btnVolSave.TabIndex = 13;
             this.btnVolSave.Text = "Speichern";
-            this.btnVolSave.UseVisualStyleBackColor = true;
-            this.btnVolSave.Click += new System.EventHandler(this.button2_Click);
+            this.btnVolSave.UseVisualStyleBackColor = false;
+            this.btnVolSave.Click += new System.EventHandler(this.btnVolSave_Click);
             // 
             // volBar1
             // 
@@ -231,6 +240,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(0)))), ((int)(((byte)(26)))));
             this.ClientSize = new System.Drawing.Size(199, 450);
             this.Controls.Add(this.volBar6);
             this.Controls.Add(this.volBar5);
@@ -251,8 +261,9 @@
             this.Controls.Add(this.volBox1);
             this.Controls.Add(this.lblInstrument2);
             this.Controls.Add(this.lblInstrument1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Volume";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Volume";
             ((System.ComponentModel.ISupportInitialize)(this.volBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.volBar2)).EndInit();

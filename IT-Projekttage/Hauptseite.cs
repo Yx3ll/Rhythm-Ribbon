@@ -17,6 +17,7 @@ namespace IT_Projekttage
     {
         int tempo = 120;
         bool isLooping;
+        Volume volumePage = new Volume();
         string instFilePath1;
         string instFilePath2;
         string instFilePath3;

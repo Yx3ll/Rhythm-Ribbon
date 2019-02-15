@@ -12,12 +12,12 @@ namespace IT_Projekttage
 {
     public partial class Volume : Form
     {
-        public static string sampleName1;
-        public static string sampleName2;
-        public static string sampleName3;
-        public static string sampleName4;
-        public static string sampleName5;
-        public static string sampleName6;
+        public static string sampleName1 = "Instrument";
+        public static string sampleName2 = "Instrument";
+        public static string sampleName3 = "Instrument";
+        public static string sampleName4 = "Instrument";
+        public static string sampleName5 = "Instrument";
+        public static string sampleName6 = "Instrument";
         public Volume()
         {
             InitializeComponent();
@@ -35,7 +35,7 @@ namespace IT_Projekttage
             volBox6.Text = Convert.ToString(Hauptseite.Sample6Vol);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnVolSave_Click(object sender, EventArgs e)
         {
             Hauptseite.Sample1Vol = Convert.ToInt32(volBox1.Text);
             Hauptseite.Sample2Vol = Convert.ToInt32(volBox2.Text);
